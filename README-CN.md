@@ -51,7 +51,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 
 ## 设置客户端
-请传入您的 `accessKeyId`、 `accessKeySecret`、 `endpoint`，[查看 KMS 可用的 Endpoint 列表](https://developer.aliyun.com/endpoints#service_kms)。
+请传入您的 `accessKeyId`、 `accessKeySecret`、 `endpoint`，[KMS 可用的 Endpoint 列表](https://developer.aliyun.com/endpoints#service_kms)。
 
 ```php
 <?php
