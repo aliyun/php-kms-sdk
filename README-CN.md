@@ -63,7 +63,7 @@ $client = new Kms('accessKeyId', 'accessKeySecret', 'kms.cn-hangzhou.aliyuncs.co
 
 
 ## 设置请求选项
-请参考 [请求选项 Guzzle中文文档][guzzle-docs]
+请参考 [请求选项 Guzzle中文文档][guzzle-docs]。
 
 ```php
 <?php
