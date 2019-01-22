@@ -1,0 +1,100 @@
+{
+    "name": "alibabacloud/kms",
+    "homepage": "https://www.alibabacloud.com/",
+    "description": "Alibaba Cloud KMS SDK for PHP",
+    "keywords": [
+        "aliyun",
+        "alibaba",
+        "alibabacloud",
+        "sdk",
+        "kms",
+        "cloud"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/aliyun/php-kms-sdk/issues",
+        "source": "https://github.com/aliyun/php-kms-sdk"
+    },
+    "authors": [
+        {
+            "name": "Alibaba Cloud SDK",
+            "homepage": "http://www.alibabacloud.com",
+            "email": "sdk-team@alibabacloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "alibabacloud/client": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.2",
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^3.4",
+        "symfony/dotenv": "^3.4",
+        "symfony/var-dumper": "^3.4"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "AlibabaCloud\\Kms\\": "src"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlibabaCloud\\Kms\\Tests\\": "tests/"
+        },
+        "classmap": [
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts-descriptions": {
+        "cs": "Tokenizes PHP, JavaScript and CSS files to detect violations of a defined coding standard.",
+        "cbf": "Automatically correct coding standard violations.",
+        "fixer": "Fixes code to follow standards.",
+        "test": "Run all tests.",
+        "unit": "Run Unit tests.",
+        "feature": "Run Feature tests.",
+        "clearCache": "Clear cache like coverage.",
+        "coverage": "Show Coverage html.",
+        "prompts": "Generate IDE prompts."
+    },
+    "scripts": {
+        "cs": "phpcs --standard=PSR2 -n ./",
+        "cbf": "phpcbf --standard=PSR2 -n ./",
+        "fixer": "php-cs-fixer fix ./",
+        "test": [
+            "@clearCache",
+            "phpunit --colors=always"
+        ],
+        "unit": [
+            "@clearCache",
+            "phpunit --testsuite=Unit --colors=always"
+        ],
+        "feature": [
+            "@clearCache",
+            "phpunit --testsuite=Feature --colors=always"
+        ],
+        "clearCache": "rm -rf cache/*",
+        "coverage": "open cache/coverage/index.html",
+        "prompts": [
+            "@fixer"
+        ]
+    }
+}
