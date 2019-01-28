@@ -21,7 +21,7 @@ English | [简体中文](./README-CN.md)
 
 
 ## Requirements
-- You must use PHP5.5.0 or later. 
+- You must use PHP 5.5.0 or later. 
 
 
 ## Recommendations
