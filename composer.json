@@ -30,6 +30,7 @@
         "alibabacloud/client": "^1.0"
     },
     "require-dev": {
+        "symfony/dotenv": "^3.4",
         "friendsofphp/php-cs-fixer": "^2.2",
         "phpunit/phpunit": "^4.8",
         "squizlabs/php_codesniffer": "^3.4",
