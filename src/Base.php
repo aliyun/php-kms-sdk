@@ -74,6 +74,7 @@ class Base
         $this->uri = $this->uri->withPath($request['pathname']);
         $this->uri = $this->uri->withQuery($request['query']);
         $this->uri = $this->uri->withHost($request['headers']['host']);
+
         return (new Client())->request($request['method'], (string)$this->uri, $options);
     }
 
@@ -141,6 +142,7 @@ class Base
         $result = urlencode($string);
         $result = str_replace(['+', '*'], ['%20', '%2A'], $result);
         $result = preg_replace('/%7E/', '~', $result);
+
         return $result;
     }
 }
