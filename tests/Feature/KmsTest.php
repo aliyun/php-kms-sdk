@@ -22,8 +22,8 @@ class KmsTest extends TestCase
      * @var array
      */
     protected $runtime = [
-        'connect_timeout' => 15,
-        'timeout'         => 20,
+        'connect_timeout' => 20,
+        'timeout'         => 25,
     ];
 
     /**
@@ -256,6 +256,7 @@ class KmsTest extends TestCase
 
         self::assertEquals(200, $result->getResponse()->getStatusCode());
         self::assertArrayHasKey('ImportToken', $result);
+
         return $result['ImportToken'];
     }
 
