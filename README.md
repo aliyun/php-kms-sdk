@@ -3,9 +3,9 @@ English | [简体中文](./README-CN.md)
 
 <p align="center"><img src="./src/AlibabaCloud.svg"></p>
 <p align="center">
-<a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://badge.fury.io/ph/alibabacloud%2Fkms.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/v/stable" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/v/unstable" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/composerlock" alt="composer.lock"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/downloads" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/license" alt="License"></a>
 <br/>
