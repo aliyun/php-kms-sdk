@@ -1,11 +1,11 @@
 English | [简体中文](./README-CN.md)
 
 
-**<p align="center"><img src="./src/AlibabaCloud.svg"></p>
+<p align="center"><img src="./src/AlibabaCloud.svg"></p>
 <p align="center">
-<a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://badge.fury.io/ph/alibabacloud%2Fkms.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/v/stable" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/v/unstable" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/composerlock" alt="composer.lock"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/downloads" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/license" alt="License"></a>
 <br/>
@@ -14,7 +14,7 @@ English | [简体中文](./README-CN.md)
 <a href="https://travis-ci.org/aliyun/php-kms-sdk"><img src="https://travis-ci.org/aliyun/php-kms-sdk.svg?branch=master" alt="Travis Build Status"></a>
 <a href="https://ci.appveyor.com/project/songshenzong/php-kms-sdk/branch/master"><img src="https://ci.appveyor.com/api/projects/status/ttsf2ugc88dqyn1o/branch/master?svg=true" alt="Appveyor Build Status"></a>
 <a href="https://scrutinizer-ci.com/code-intelligence"><img src="https://scrutinizer-ci.com/g/aliyun/php-kms-sdk/badges/code-intelligence.svg" alt="Code Intelligence Status"></a>
-</p>**
+</p>
 
 
 ## About
