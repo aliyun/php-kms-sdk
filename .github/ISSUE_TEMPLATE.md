@@ -1,7 +1,7 @@
 <!--
 Thank you for reporting an issue.
 
-This issue tracker is for bugs and issues found within Alibaba Cloud SDK for PHP.
+This issue tracker is for bugs and issues found within Alibaba Cloud KMS SDK for PHP.
 If you require more general support please file an issue on our help
 repo. https://help.aliyun.com/
 
