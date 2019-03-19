@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.2 - 2019-03-19
+- Update Docs.
+
+
 ## 1.0.1 - 2019-03-13
 - Update Docs.
 

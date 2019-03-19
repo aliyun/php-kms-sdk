@@ -1,4 +1,4 @@
-# Alibaba Cloud Client for PHP
+# Alibaba Cloud KMS SDK for PHP
 
 <https://www.alibabacloud.com/>
 
