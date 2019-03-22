@@ -12,7 +12,7 @@
 <a href="https://codecov.io/gh/aliyun/php-kms-sdk"><img src="https://codecov.io/gh/aliyun/php-kms-sdk/branch/master/graph/badge.svg" alt="codecov"></a>
 <a href="https://scrutinizer-ci.com/g/aliyun/php-kms-sdk"><img src="https://scrutinizer-ci.com/g/aliyun/php-kms-sdk/badges/quality-score.png" alt="Scrutinizer Code Quality"></a>
 <a href="https://travis-ci.org/aliyun/php-kms-sdk"><img src="https://travis-ci.org/aliyun/php-kms-sdk.svg?branch=master" alt="Travis Build Status"></a>
-<a href="https://ci.appveyor.com/project/songshenzong/php-kms-sdk/branch/master"><img src="https://ci.appveyor.com/api/projects/status/ttsf2ugc88dqyn1o/branch/master?svg=true" alt="Appveyor Build Status"></a>
+<a href="https://ci.appveyor.com/project/aliyun/php-kms-sdk/branch/master"><img src="https://ci.appveyor.com/api/projects/status/9n1qmw9i5qxx507t/branch/master?svg=true" alt="Appveyor Build Status"></a>
 <a href="https://scrutinizer-ci.com/code-intelligence"><img src="https://scrutinizer-ci.com/g/aliyun/php-kms-sdk/badges/code-intelligence.svg" alt="Code Intelligence Status"></a>
 </p>
 
