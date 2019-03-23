@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.3 - 2019-03-23
+- Remove Svg.
+
+
 ## 1.0.2 - 2019-03-19
 - Update Docs.
 
