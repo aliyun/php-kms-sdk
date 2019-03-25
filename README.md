@@ -1,7 +1,12 @@
 English | [简体中文](./README-CN.md)
 
 
-<p align="center"><img src="https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg"></p>
+<p align="center">
+<a href=" https://www.alibabacloud.com"><img src="https://aliyunsdk-pages.alicdn.com/icons/AlibabaCloud.svg"></a>
+</p>
+
+<h1 align="center">Alibaba Cloud KMS SDK for PHP</h1>
+
 <p align="center">
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/v/stable" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/alibabacloud/kms"><img src="https://poser.pugx.org/alibabacloud/kms/v/unstable" alt="Latest Unstable Version"></a>
@@ -17,8 +22,7 @@ English | [简体中文](./README-CN.md)
 </p>
 
 
-## About
-**Alibaba Cloud KMS SDK for PHP** Supports PHP developers using Alibaba Cloud Key Management Service.
+Alibaba Cloud KMS SDK for PHP Supports PHP developers using Alibaba Cloud Key Management Service.
 
 
 ## Getting Started
