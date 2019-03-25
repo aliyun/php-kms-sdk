@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.4 - 2019-03-25
+- Updated README.md.
+
+
 ## 1.0.3 - 2019-03-23
 - Remove Svg.
 
