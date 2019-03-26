@@ -22,20 +22,23 @@
 </p>
 
 
-Alibaba Cloud KMS SDK for PHP 支持 PHP 开发者使用阿里云密钥服务。
+Alibaba Cloud KMS SDK for PHP 支持 PHP 开发者使用阿里云[密钥管理服务](https://kms.console.aliyun.com/)（Key Management Service，简称：KMS）。
 
 
 ## 快速开始
-1. **阿里云帐户**  - 在您开始之前，您需要注册阿里云帐户并获取您的[凭证](https://usercenter.console.aliyun.com/#/manage/ak)。
-1. **环境要求**  - 您的系统需要满足[环境要求](docs/0-Requirements-CN.md)，包括 PHP> = 5.5。 我们强烈建议使用cURL扩展，并使用TLS后端编译cURL 7.16.2+。
-1. **安装依赖**  - 如果在您的系统上全局安装Composer，您可以在项目目录中运行以下内容，将 Alibaba Cloud KMS SDK for PHP 添加为依赖项：
-   ```
-   composer require alibabacloud/kms
-   ```
-   请看 [安装](docs/1-Installation-CN.md) 有关通过 Composer 和其他方式安装的详细信息。
+您的系统需要满足[环境要求](docs/0-Requirements-CN.md)，包括 PHP> = 5.5。 我们强烈建议使用cURL扩展，并使用TLS后端编译cURL 7.16.2+。
+
+
+## 安装依赖
+如果在您的系统上全局安装Composer，您可以在项目目录中运行以下内容，将 Alibaba Cloud KMS SDK for PHP 添加为依赖项：
+```
+composer require alibabacloud/kms
+```
+请看 [安装](docs/1-Installation-CN.md) 有关通过 Composer 和其他方式安装的详细信息。
 
 
 ## 设置客户端
+在您开始之前，您需要注册阿里云帐户并获取您的[凭证](https://usercenter.console.aliyun.com/#/manage/ak)。
 请传入您的 `accessKeyId`、 `accessKeySecret`、 `endpoint`，[KMS 可用的 Endpoint 列表](https://developer.aliyun.com/endpoints#service_kms)。
 
 ```php
@@ -489,12 +492,30 @@ try {
 ```
 
 
+## 问题
+[提交 Issue](https://github.com/aliyun/php-kms-sdk/issues/new/choose)，不符合指南的问题可能会立即关闭。
+
+
+## 发行说明
+每个版本的详细更改记录在[发行说明](CHANGELOG.md)中。
+
+
+## 贡献
+提交 Pull Request 之前请阅读[贡献指南](CONTRIBUTING.md)。
+
+
 ## 相关
 * [OpenAPI Explorer][open-api]
 * [Packagist][packagist]
 * [Composer][composer]
 * [Guzzle中文文档][guzzle-docs]
 * [Latest Release][latest-release]
+
+
+## 许可证
+[Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+版权所有 1999-2019 阿里巴巴集团
 
 
 [open-api]: https://api.aliyun.com

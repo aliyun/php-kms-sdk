@@ -22,21 +22,24 @@ English | [简体中文](./README-CN.md)
 </p>
 
 
-Alibaba Cloud KMS SDK for PHP Supports PHP developers using Alibaba Cloud Key Management Service.
+Alibaba Cloud KMS SDK for PHP Supports PHP developers using Alibaba Cloud [Key Management Service (KMS)](https://kms.console.aliyun.com/).
 
 
-## Getting Started
-1. **Alibaba Cloud Account** – Before you begin, you need to sign up for an Alibaba Cloud account and retrieve your [Credentials](https://usercenter.console.aliyun.com/#/manage/ak).
-1. **Requirements** – Your system will need to meet the [Requirements](docs/0-Requirements-EN.md), including having PHP >= 5.5. We highly recommend having it compiled with the cURL extension and cURL 7.16.2+.
-1. **Install Dependency** – If Composer is installed globally on your system, you can run the following in the base directory of your project to add the Alibaba Cloud KMS SDK for PHP as a dependency:
-   ```
-   composer require alibabacloud/kms
-   ```
-   Please see the
-   [Installation](docs/1-Installation-EN.md) for more detailed information about installing through Composer and other means.
+## Requirements
+Your system will need to meet the [Requirements](docs/0-Requirements-EN.md), including having PHP >= 5.5. We highly recommend having it compiled with the cURL extension and cURL 7.16.2+.
+
+
+## Installation
+If Composer is installed globally on your system, you can run the following in the base directory of your project to add the Alibaba Cloud KMS SDK for PHP as a dependency:
+```
+composer require alibabacloud/kms
+```
+Please see the
+[Installation](docs/1-Installation-EN.md) for more detailed information about installing through Composer and other means.
 
 
 ## Setting up the client
+Before you begin, you need to sign up for an Alibaba Cloud account and retrieve your [Credentials](https://usercenter.console.aliyun.com/#/manage/ak).
 Please pass in your `accessKeyId`, `accessKeySecret`, `endpoint`, [View the list of KMS endpoints](https://developer.aliyun.com/endpoints#service_kms).
 
 ```php
@@ -486,12 +489,30 @@ try {
 ```
 
 
+## Issues
+[Opening an Issue](https://github.com/aliyun/php-kms-sdk/issues/new/choose), Issues not conforming to the guidelines may be closed immediately.
+
+
+## Changelog
+Detailed changes for each release are documented in the [release notes](CHANGELOG.md).
+
+
+## Contribution
+Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request.
+
+
 ## References
 * [OpenAPI Explorer][open-api]
 * [Packagist][packagist]
 * [Composer][composer]
 * [Guzzle Documentation][guzzle-docs]
 * [Latest Release][latest-release]
+
+
+## License
+[Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Copyright 1999-2019 Alibaba Group Holding Ltd.
 
 
 [open-api]: https://api.aliyun.com

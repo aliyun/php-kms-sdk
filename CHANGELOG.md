@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.5 - 2019-03-26
+- Updated Description.
+
+
 ## 1.0.4 - 2019-03-25
 - Updated README.md.
 
