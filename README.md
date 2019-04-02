@@ -25,12 +25,12 @@ English | [简体中文](./README-CN.md)
 Alibaba Cloud KMS SDK for PHP Supports PHP developers using Alibaba Cloud [Key Management Service (KMS)](https://kms.console.aliyun.com/).
 
 
-## Requirements
-Your system will need to meet the [Requirements](docs/0-Requirements-EN.md), including having PHP >= 5.5. We highly recommend having it compiled with the cURL extension and cURL 7.16.2+.
+## Prerequisites
+Your system will need to meet the [Prerequisites](docs/0-Prerequisites-EN.md), including having PHP >= 5.5. We highly recommend having it compiled with the cURL extension and cURL 7.16.2+.
 
 
 ## Installation
-If Composer is installed globally on your system, you can run the following in the base directory of your project to add the Alibaba Cloud KMS SDK for PHP as a dependency:
+If Composer is already [installed globally on your system](https://getcomposer.org/doc/00-intro.md#globally), run the following in the base directory of your project to install Alibaba Cloud KMS SDK for PHP as a dependency:
 ```
 composer require alibabacloud/kms
 ```
