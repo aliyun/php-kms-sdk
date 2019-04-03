@@ -34,6 +34,8 @@ Alibaba Cloud KMS SDK for PHP 支持 PHP 开发者使用阿里云[密钥管理�
 ```
 composer require alibabacloud/kms
 ```
+> 一些用户可能由于网络问题无法安装，可以尝试切换 Composer 镜像地址。
+
 请看 [安装](docs/1-Installation-CN.md) 有关通过 Composer 和其他方式安装的详细信息。
 
 

@@ -34,8 +34,9 @@ If Composer is already [installed globally on your system](https://getcomposer.o
 ```
 composer require alibabacloud/kms
 ```
-Please see the
-[Installation](docs/1-Installation-EN.md) for more detailed information about installing through Composer and other means.
+> Some users may not be able to install due to network problems, you can try to switch the Composer mirror.
+
+Please see the [Installation](docs/1-Installation-EN.md) for more detailed information about installing through Composer and other means.
 
 
 ## Setting up the client
